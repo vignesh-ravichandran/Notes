@@ -1,0 +1,37 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "APIS for adding , updating and deleting notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vignesh-ravichandran/Notes.git"
+  },
+  "keywords": [
+    "Notes"
+  ],
+  "author": "vignesh-ravichandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vignesh-ravichandran/Notes/issues"
+  },
+  "homepage": "https://github.com/vignesh-ravichandran/Notes#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
